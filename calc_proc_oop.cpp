@@ -40,13 +40,13 @@ void calc_action(){
         cout << "Please, input second Operand"<< endl;
         cin >> OperandY;
 
-            if (Operator=='+'){Rezult=calc_action_plus(iOperandX,OperandY);}
+            if (Operator=='+'){Rezult=calc_action_plus(OperandX,OperandY);}
 
-            else if (Operator=='-'){Rezult=calc_action_sb(iOperandX,OperandY);}
+            else if (Operator=='-'){Rezult=calc_action_sb(OperandX,OperandY);}
 
-            else if (Operator=='*'){Rezult=calc_action_mult(iOperandX,OperandY);}
+            else if (Operator=='*'){Rezult=calc_action_mult(OperandX,OperandY);}
 
-            else if (Operator=='/'){Rezult=calc_action_div(iOperandX,OperandY);}
+            else if (Operator=='/'){Rezult=calc_action_div(OperandX,OperandY);}
 
         cout << "Result is "<<Rezult<<endl;
         cout << "For continue put 1 ";
