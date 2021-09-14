@@ -8,9 +8,10 @@
 // Copyright   : MIT
 // Description : Calk. first stage   C++! Proc implam in CPP tuls For lect.1
 // Created on  :  0.1 ed. 14.09  2021 г
+// branch main branch test 
 //============================================================================
 int main(int argc, char * argv []){
-   calc_action();
+  main_calc();
    return 0;
   
     }
